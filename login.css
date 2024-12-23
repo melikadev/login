@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(nature-3082832_1280.jpg);
+  backdrop-filter:  blur(2px);
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  background-color: rgba(27, 22, 22, 0.7);
+  border: 1px solid rgba(27, 22, 22, 0.7);
+  border-radius: 6px;
+  text-align: center;
+ backdrop-filter: blur(2px);
+ outline: none;
+ min-width: 400px;
+ min-height: 400px;
+ box-shadow: 2px 2px 10px rgb(33, 32, 32);
+}
+
+.put input {
+  display: block;
+  height: 1px;
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+  border: none;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-radius: 0px;
+  background-clip: border-box;
+  height: 0%;
+}
+
+.put input:focus{
+
+  border: none none 1px none;
+  outline: none;
+
+}
+
+::placeholder {
+  color: rgb(143, 137, 137);
+
+}
+
+ 
+#login{
+  margin-top: 30px;
+margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(198, 198, 198);
+}
+
+.checkbox{ 
+font-size: 14px;
+float: left;
+margin-top: 10px;
+margin-left: 6%;
+
+
+} 
+.checkbox p{
+  margin-top: 17px;
+  position: relative;
+  bottom:2px;
+  font-size: 12px;
+}
+
+p{
+  display: inline-block;
+  color: rgb(143, 137, 137);
+}
+#pass{
+
+  display: block;
+  font-size: 12px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 6%;
+
+}
+#submit{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+padding: 10px;
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+} 
+#acc{
+  font-size: 12px;
+  margin-top: 10PX;
+  margin-bottom: 10px;
+}
+.ff{
+margin: auto;
+}
+
+a:hover{
+  color: white;
+}
+a:visited{
+
+  color: rgb(143, 137, 137);
+}
